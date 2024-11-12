@@ -1,0 +1,86 @@
+$primary-color: #007bff;
+$light-gray: #f8f9fa;
+$dark-gray: #343a40;
+$primary-gradient: linear-gradient(135deg, #2d6187, #a3d9ff);
+$box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: $light-gray;
+  margin: 0;
+}
+
+.hero-section {
+  background: $primary-gradient;
+  color: white;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 20px;
+
+  h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.5rem;
+    font-weight: bold;
+  }
+
+  p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    margin-top: 10px;
+  }
+}
+
+nav a.nav-link {
+  color: $dark-gray;
+  transition: color 0.3s ease;
+
+  &:hover {
+    color: $primary-color;
+  }
+}
+
+#types .card {
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: $box-shadow;
+  }
+}
+
+#videos .carousel-caption {
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+footer {
+  background: linear-gradient(135deg, $dark-gray, darken($dark-gray, 10%));
+  color: $light-gray;
+  text-align: center;
+  padding: 20px 0;
+
+  p {
+    margin: 0;
+    font-size: 1rem;
+
+    a {
+      color: $primary-color;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+
+
+
+
+.container {background-color: aqua;}
