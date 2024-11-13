@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vídeos Educativos</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="hero-section text-center text-white d-flex align-items-center justify-content-center" style="background: url('videos.jpg') no-repeat center center/cover;">
+    <div class="container">
+      <h1 class="display-4 fw-bold mb-3">Vídeos Educativos</h1>
+      <p class="lead">Descubra mais sobre fontes de energia limpa e sustentabilidade</p>
+    </div>
+  </header>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Energia Limpa</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="beneficios.html">Benefícios</a></li>
+          <li class="nav-item"><a class="nav-link" href="tipos.html">Tipos</a></li>
+          <li class="nav-item"><a class="nav-link active" href="videos.html">Vídeos</a></li>
+          <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Conteúdo -->
+   <!-- Vídeos Educativos -->
+   <section id="videos" class="my-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Vídeos Educativos</h2>
+      <p class="text-center mb-4">
+        Aprenda mais sobre as fontes de energia limpa e como elas podem mudar o mundo.
+      </p>
+      <div id="videosCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row justify-content-center">
+              <div class="col-md-8">
+                <iframe width="100%" height="400" src="https://www.youtube.com/embed/rs-kBJKCABA?si=WgXuBVw-gZSXDDQY" title="Vídeo 1" class="rounded"></iframe>
+              </div>
+            </div>
+            <div class="carousel-caption">
+              <h5>Energias Renováveis</h5>
+              <p>As 5 Principais Fontes de Energia Renováveis</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row justify-content-center">
+              <div class="col-md-8">
+                <iframe width="100%" height="400" src="https://www.youtube.com/embed/rDAmwZ5PMmk?si=OA7ue-ARcsj_gnAJ" title="Vídeo 2" class="rounded"></iframe>
+              </div>
+            </div>
+            <div class="carousel-caption">
+              <h5>Energia Solar</h5>
+              <p>O que é energia solar?.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row justify-content-center">
+              <div class="col-md-8">
+                <iframe width="100%" height="400" src="https://www.youtube.com/embed/DfgcxO_4L4w?si=g-8zIwDrt1JcBkEa"  title="Vídeo 3" class="rounded"></iframe>
+              </div>
+            </div>
+            <div class="carousel-caption">
+              <h5>Energia Eólica</h5>
+              <p>Entenda como o vento pode gerar eletricidade limpa.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Controles do Carrossel -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#videosCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#videosCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Próximo</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-4">
+    <p>&copy; 2024 Energia Limpa | Feito com ♥ por Você</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
